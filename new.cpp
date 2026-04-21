@@ -8,5 +8,10 @@ class barang {
     string kategori;
     string tanggalproduksi;
 
-    
-}
+    void tampilspek(){
+        cout << "nama barang : " << nama << endl;
+        cout << "jumlah barang : " << jumlah << endl;
+
+    }
+};
+
